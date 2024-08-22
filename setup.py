@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='proxy-spinnerr',
+    name='proxy-spinner',
     version='0.1',
     author='Eric-Canas',
     author_email='eric@ericcanas.com',
