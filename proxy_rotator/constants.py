@@ -1,0 +1,1 @@
+PROXY_SCRAPPER_URL = "https://api.proxyscrape.com/v3/free-proxy-list/get?request=displayproxies&proxy_format=protocolipport&format=json"
