@@ -2,10 +2,10 @@ from setuptools import setup, find_packages
 
 setup(
     name='proxy-spinner',
-    version='0.1',
+    version='0.2',
     author='Eric-Canas',
     author_email='eric@ericcanas.com',
-    url='https://github.com/Eric-Canas/proxy-rotator',
+    url='https://github.com/Eric-Canas/proxy-spinner',
     description='ProxySpinner is an straightforward, non-reliable, non-secure, but easy-to-use library for '
                 'avoiding IP blocking by rotating free proxies on demand. It relies in services like '
                 'proxyscrape.com to get the proxies and rotates them on demand, and is subject to the '
