@@ -7,7 +7,7 @@ rotate them on demand, and is subject to the availability of that service and th
 ## Installation
 
 ```bash
-pip install proxy-rotator
+pip install proxy-spinner
 ```
 
 ## Usage
