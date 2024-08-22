@@ -1,12 +1,12 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='proxy-rotator',
+    name='proxy-spinnerr',
     version='0.1',
     author='Eric-Canas',
     author_email='eric@ericcanas.com',
     url='https://github.com/Eric-Canas/proxy-rotator',
-    description='ProxyRotator is an straightforward, non-reliable, non-secure, but easy-to-use library for '
+    description='ProxySpinner is an straightforward, non-reliable, non-secure, but easy-to-use library for '
                 'avoiding IP blocking by rotating free proxies on demand. It relies in services like '
                 'proxyscrape.com to get the proxies and rotates them on demand, and is subject to the '
                 'availability of that service and the proxies it lists.',

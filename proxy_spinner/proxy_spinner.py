@@ -2,10 +2,10 @@ import requests
 import os
 from requests.exceptions import ProxyError, SSLError, Timeout, ConnectionError
 
-from proxy_rotator.constants import PROXY_SCRAPPER_URL
+from proxy_spinner.constants import PROXY_SCRAPPER_URL
 
 
-class ProxyRotator:
+class ProxySpinner:
 
     def __init__(self, proxy: str = None):
         self.original_proxy = os.getenv("HTTP_PROXY") or os.getenv("HTTPS_PROXY")
@@ -46,7 +46,7 @@ class ProxyRotator:
         return None
 
     def test_proxy(self, proxy: str, verbose: bool = False) -> bool:
-        with ProxyRotator(proxy=proxy):
+        with ProxySpinner(proxy=proxy):
             try:
                 response = requests.get("https://www.google.com", timeout=7)
                 return response.status_code == 200
