@@ -28,7 +28,6 @@ setup(
         'Operating System :: OS Independent',
         'Intended Audience :: Developers',
         'Topic :: System :: Networking',
-        'Topic :: System :: Networking :: Proxy Servers',
         'Topic :: Software Development :: Libraries',
         'Topic :: Software Development :: Libraries :: Python Modules',
         'Topic :: Utilities',
