@@ -1,9 +1,4 @@
-'ProxyRotator is an straightforward, non-reliable, non-secure, but easy-to-use library for '
-                'avoiding IP blocking by rotating free proxies on demand. It relies in services like '
-                'proxyscrape.com to get the proxies and rotates them on demand, and is subject to the '
-                'availability of that service and the proxies it lists.',
-
-# Proxy Rotator
+# Proxy Spinner
 
 ProxyRotator is an straightforward, *non-reliable*, *non-secure*, but easy-to-use library for avoiding IP blocking 
 by rotating free proxies on demand. It relies in services like [ProxyScrape.com](https://proxyscrape.com/free-proxy-list) to get the proxies and 
